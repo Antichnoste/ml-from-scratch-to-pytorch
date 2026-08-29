@@ -1,30 +1,21 @@
 data/
-*.csv
-*.tsv
-*.npy
 *.npz
-*.pkl
-*.joblib
-*.h5
-*.hdf5
-*.pt
+
 *.pth
+*.pt
 *.ckpt
-*.onnx
 
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+venv/
+.venv/
+*.egg-info/
 
+# Jupyter
 .ipynb_checkpoints/
 
-.venv/
-venv/
-env/
-ENV/
-
+# ОС / IDE
+.DS_Store
 .vscode/
 .idea/
-
-*.log
-*.tmp
