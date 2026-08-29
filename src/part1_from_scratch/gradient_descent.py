@@ -94,7 +94,6 @@ def gradient_descent(
 def predict_trajectory_2d(grad_fn, loss_fn, start_point, lr=0.1, n_steps=50):
     """
     Вспомогательная функция для демонстрации GD на функции двух переменных
-    (например, f(x, y) = x^2 + y^2) — удобно для визуализации в notebooks/01.
 
     grad_fn : callable(point: np.ndarray) -> np.ndarray, градиент в точке
     loss_fn : callable(point: np.ndarray) -> float, значение функции в точке
@@ -114,7 +113,6 @@ def predict_trajectory_2d(grad_fn, loss_fn, start_point, lr=0.1, n_steps=50):
 
 
 if __name__ == "__main__":
-    # Быстрая самопроверка: находим минимум f(x, y) = x^2 + y^2 (минимум в (0, 0))
     def f(p):
         return p[0] ** 2 + p[1] ** 2
 
